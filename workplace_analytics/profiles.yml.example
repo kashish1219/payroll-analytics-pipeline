@@ -1,0 +1,12 @@
+workplace_analytics:
+  outputs:
+    dev:
+      type: postgres
+      host: your-rds-endpoint.amazonaws.com
+      user: your_username
+      password: your_password
+      port: 5432
+      dbname: postgres
+      schema: public
+      threads: 4
+  target: dev

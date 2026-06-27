@@ -1,0 +1,6 @@
+.env
+workplace_analytics/profiles.yml
+workplace_analytics/target/
+workplace_analytics/logs/
+__pycache__/
+.pytest_cache/
